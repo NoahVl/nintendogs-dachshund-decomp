@@ -1,0 +1,8 @@
+#include "m2c.h"
+#include "engine.h"
+
+void func_02008510(M2C_UNK, M2C_UNK, M2C_UNK);
+
+void func_020084b0(s32 arg0) {
+    func_02008510(0, 1, arg0);
+}

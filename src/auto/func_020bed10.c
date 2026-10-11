@@ -1,0 +1,8 @@
+#include "m2c.h"
+#include "engine.h"
+
+extern void *data_02155660;
+
+void func_020bed10(s32 arg0) {
+    M2C_FIELD(data_02155660, s32 *, 0x18) = arg0;
+}

@@ -1,0 +1,8 @@
+#include "m2c.h"
+#include "engine.h"
+
+void func_0208e398(M2C_UNK);
+
+void func_020dd9a4(void) {
+    func_0208e398(0x30);
+}

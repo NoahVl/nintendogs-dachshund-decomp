@@ -1,0 +1,8 @@
+#include "m2c.h"
+#include "engine.h"
+
+extern s8 data_0214f578;
+
+void func_02070164(void) {
+    data_0214f578 = 0;
+}

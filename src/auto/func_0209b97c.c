@@ -1,0 +1,14 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+#include "engine.h"
+
+void func_02003c48(M2C_UNK);
+
+extern void *data_02159e70;
+
+void func_0209b97c(void) {
+    if (M2C_FIELD(data_02159e70, s32 *, 0xB4) != 0x17) {
+        return;
+    }
+    func_02003c48(0xA);
+}

@@ -1,0 +1,8 @@
+#include "m2c.h"
+#include "engine.h"
+
+extern s32 data_02159e70;
+
+s32 func_020ebe54(s32 arg0, s32 arg1) {
+    return (s32) (M2C_FIELD((M2C_FIELD(((arg0 * 0x294) + data_02159e70), s32 *, 0x1DF4) + (arg1 * 8)), s16 *, 8) << 0x14) >> 0x14;
+}

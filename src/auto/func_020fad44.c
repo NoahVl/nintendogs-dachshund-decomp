@@ -1,0 +1,14 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+#include "engine.h"
+
+void func_02081380(M2C_UNK);
+
+extern s32 *data_0215a02c;
+
+void func_020fad44(void) {
+    if (data_0215a02c == NULL) {
+        return;
+    }
+    func_02081380(*data_0215a02c);
+}

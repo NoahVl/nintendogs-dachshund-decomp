@@ -1,0 +1,6 @@
+#include "m2c.h"
+#include "engine.h"
+
+s32 func_02027f68(s32 arg0, s32 arg1) {
+    return (s32) M2C_FIELD((M2C_FIELD(arg0, s32 *, 0x9E8) + ((s32) (arg1 << 0x10) >> 0xF)), s16 *, 0x18);
+}
