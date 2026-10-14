@@ -29,11 +29,11 @@ void func_020f1880(void *arg0) {
 
     M2C_FIELD(arg0, s32 *, 4) = 0;
     M2C_FIELD(arg0, s32 *, 0) = 0;
-    temp_r4 = arg0 + 0x174;
-    temp_r6 = func_020e7ec4(0, &data_02146e88);
-    temp_r8 = func_020e7ec4(0, &data_02146e98);
-    temp_r7 = func_020e7ec4(0, &data_02146ea8);
-    temp_r6_2 = func_020e7ec4(0, &data_02146ec0);
+    temp_r4                   = arg0 + 0x174;
+    temp_r6                   = func_020e7ec4(0, &data_02146e88);
+    temp_r8                   = func_020e7ec4(0, &data_02146e98);
+    temp_r7                   = func_020e7ec4(0, &data_02146ea8);
+    temp_r6_2                 = func_020e7ec4(0, &data_02146ec0);
     func_020ec2f4(0, temp_r6);
     func_020ec328(0, temp_r8);
     func_020ec134(0, temp_r7);

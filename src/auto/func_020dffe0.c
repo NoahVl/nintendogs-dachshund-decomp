@@ -22,36 +22,36 @@ void func_020dffe0(s32 arg0) {
         temp_r0 = func_0202816c();
         temp_r1 = M2C_FIELD(data_0215a04c, s16 *, 6);
         switch (temp_r1) {                          /* switch 1; irregular */
-        case 2:                                     /* switch 1 */
-            var_r4 = M2C_FIELD(temp_r0, s16 *, 0x6C);
-            break;
-        case 0:                                     /* switch 1 */
-            var_r4 = M2C_FIELD(temp_r0, s16 *, 0x68);
-            break;
-        case 1:                                     /* switch 1 */
-            var_r4 = M2C_FIELD(temp_r0, s16 *, 0x6A);
-            break;
+            case 2:                                     /* switch 1 */
+                var_r4 = M2C_FIELD(temp_r0, s16 *, 0x6C);
+                break;
+            case 0:                                     /* switch 1 */
+                var_r4 = M2C_FIELD(temp_r0, s16 *, 0x68);
+                break;
+            case 1:                                     /* switch 1 */
+                var_r4 = M2C_FIELD(temp_r0, s16 *, 0x6A);
+                break;
         }
     }
     var_r1 = 0;
     switch (var_r4) {                               /* switch 2 */
-    default:                                        /* switch 2 */
-        break;
-    case 1:                                         /* switch 2 */
-        var_r1 = 0x57B;
-        break;
-    case 2:                                         /* switch 2 */
-        var_r1 = 0x57C;
-        break;
-    case 3:                                         /* switch 2 */
-        var_r1 = 0x57D;
-        break;
-    case 4:                                         /* switch 2 */
-        var_r1 = 0x57E;
-        break;
-    case 5:                                         /* switch 2 */
-        var_r1 = 0x57F;
-        break;
+        default:                                        /* switch 2 */
+            break;
+        case 1:                                         /* switch 2 */
+            var_r1 = 0x57B;
+            break;
+        case 2:                                         /* switch 2 */
+            var_r1 = 0x57C;
+            break;
+        case 3:                                         /* switch 2 */
+            var_r1 = 0x57D;
+            break;
+        case 4:                                         /* switch 2 */
+            var_r1 = 0x57E;
+            break;
+        case 5:                                         /* switch 2 */
+            var_r1 = 0x57F;
+            break;
     }
     func_020cbbe8(M2C_FIELD(data_02159e30, s32 *, 4), var_r1, 0);
 }

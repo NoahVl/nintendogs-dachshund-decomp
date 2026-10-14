@@ -9,11 +9,11 @@ void func_02003908(s32 arg0, s32 *arg1, s32 arg2) {
 
     temp_ip = *arg1;
     switch (temp_ip) {                              /* irregular */
-    case 0x45585048:
-        func_0207e314(arg0, arg1, arg2);
-        return;
-    case 0x46524D48:
-        func_0207e2f4(arg0, arg1, arg2);
-        return;
+        case 0x45585048:
+            func_0207e314(arg0, arg1, arg2);
+            return;
+        case 0x46524D48:
+            func_0207e2f4(arg0, arg1, arg2);
+            return;
     }
 }

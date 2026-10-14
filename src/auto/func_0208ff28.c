@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3  */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_02070f18(M2C_UNK, M2C_UNK, M2C_UNK);
 void func_0208dd94(M2C_UNK, M2C_UNK);

@@ -21,7 +21,7 @@ void func_020e536c(void *arg0) {
         return;
     }
     M2C_FIELD(arg0, s32 *, 0x86C) = 0;
-    temp_r4 = func_020d640c(2, 0, 0xC9, 0);
+    temp_r4                       = func_020d640c(2, 0, 0xC9, 0);
     func_020db44c(M2C_FIELD(arg0, s32 *, 0x18), 0);
     if (temp_r4 != 0) {
         func_020da98c(0, func_020ec078(2), M2C_FIELD(arg0, u16 *, 0x20), 0, temp_r4);

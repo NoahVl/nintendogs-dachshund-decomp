@@ -29,7 +29,7 @@ s32 func_02066388(void *arg0, s32 *arg1, s32 arg2) {
     func_0208022c(M2C_FIELD(arg0, s32 **, 0), 0x40);
     func_0208025c();
 loop_6:
-    M2C_FIELD(arg0, s32 **, 4) = arg1;
+    M2C_FIELD(arg0, s32 **, 4)            = arg1;
     M2C_FIELD(arg0, volatile s32 *, 0x34) = (s32) (M2C_FIELD(arg0, volatile s32 *, 0x34) | 0x20);
     do {
 

@@ -10,7 +10,7 @@ s32 func_020cb244(M2C_UNK arg0, s32 arg1, M2C_UNK arg2, s32 arg3) {
 
     var_r1 = arg1;
     var_r6 = 0;
-    sp8 = 0;
+    sp8    = 0;
     if (var_r1 != 0) {
         do {
             var_r1 = func_020cb2b0(arg0, var_r1, &sp8, arg2, arg3, 0);

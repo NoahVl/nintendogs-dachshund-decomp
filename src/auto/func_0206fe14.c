@@ -34,8 +34,8 @@ s32 func_0206fe14(void *arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, u16 arg5) 
         M2C_FIELD(arg0, s16 *, 0x32) = 0;
     }
     M2C_FIELD(arg0, s32 *, 0x28) = 0;
-    M2C_FIELD(arg0, s32 *, 0) = arg1;
-    M2C_FIELD(arg0, s32 *, 4) = arg4;
+    M2C_FIELD(arg0, s32 *, 0)    = arg1;
+    M2C_FIELD(arg0, s32 *, 4)    = arg4;
     M2C_FIELD(arg0, u16 *, 0x30) = arg5;
     if (arg2 != 0) {
         func_0206cdc0(arg2, arg0 + 8, 0x20);

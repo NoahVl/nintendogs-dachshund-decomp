@@ -15,19 +15,19 @@ void func_020f0df0(void *arg0, M2C_UNK arg1, M2C_UNK arg2) {
     }
     temp_r0_2 = M2C_FIELD(arg0, s32 *, 0x14);
     switch (temp_r0_2) {                            /* irregular */
-    case 2:
-        M2C_FIELD(arg0, u16 *, 0x1C) = (u16) (M2C_FIELD(arg0, u16 *, 0x1C) + 1);
-        if ((u32) M2C_FIELD(arg0, u16 *, 0x1C) > (u32) M2C_FIELD(arg0, u16 *, 0xE)) {
-            M2C_FIELD(arg0, s32 *, 0x14) = 3;
-            M2C_FIELD(arg0, u16 *, 0x1C) = (u16) M2C_FIELD(arg0, u16 *, 0xE);
-        }
-        return;
-    case 4:
-        M2C_FIELD(arg0, u16 *, 0x1C) = (u16) (M2C_FIELD(arg0, u16 *, 0x1C) - 1);
-        if (M2C_FIELD(arg0, u16 *, 0x1C) == 0) {
-            M2C_FIELD(arg0, s32 *, 0x14) = 1;
-            M2C_FIELD(arg0, u16 *, 0x1C) = 0U;
-        }
-        return;
+        case 2:
+            M2C_FIELD(arg0, u16 *, 0x1C) = (u16) (M2C_FIELD(arg0, u16 *, 0x1C) + 1);
+            if ((u32) M2C_FIELD(arg0, u16 *, 0x1C) > (u32) M2C_FIELD(arg0, u16 *, 0xE)) {
+                M2C_FIELD(arg0, s32 *, 0x14) = 3;
+                M2C_FIELD(arg0, u16 *, 0x1C) = (u16) M2C_FIELD(arg0, u16 *, 0xE);
+            }
+            return;
+        case 4:
+            M2C_FIELD(arg0, u16 *, 0x1C) = (u16) (M2C_FIELD(arg0, u16 *, 0x1C) - 1);
+            if (M2C_FIELD(arg0, u16 *, 0x1C) == 0) {
+                M2C_FIELD(arg0, s32 *, 0x14) = 1;
+                M2C_FIELD(arg0, u16 *, 0x1C) = 0U;
+            }
+            return;
     }
 }

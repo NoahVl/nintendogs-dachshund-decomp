@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 s32 func_02034c44(s32 arg0) {
     if ((u32) (u16) (s16) (M2C_FIELD(arg0, s16 *, 0xEA) + 0xFFFFFBD4) <= 1U) {

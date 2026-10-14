@@ -17,14 +17,14 @@ void func_020edf48(void *arg0) {
     temp_r0 = M2C_FIELD(arg0, s32 *, 0x18);
     func_020ebe84(0, 1, -0x10, -0x10, temp_r0, temp_r0, 0, 0x1F, 1);
     temp_r0_2 = M2C_FIELD(arg0, s32 *, 4);
-    var_r2 = 0;
+    var_r2    = 0;
     switch (temp_r0_2) {                            /* irregular */
-    case 1:
-        break;
-    case 0:
-    case 2:
-        var_r2 = 1;
-        break;
+        case 1:
+            break;
+        case 0:
+        case 2:
+            var_r2 = 1;
+            break;
     }
     if (M2C_FIELD(arg0, s32 *, 0x10) != 0) {
         var_r2 = 2;

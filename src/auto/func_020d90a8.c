@@ -20,5 +20,6 @@ void func_020d90a8(void *arg0) {
     func_020ec440(3, M2C_FIELD(data_02159e70, s32 *, 0x2354), 0, 0x800);
     M2C_FIELD(arg0, s32 *, 0x940) = -0xFF;
     M2C_FIELD(arg0, s32 *, 0x948) = 1;
-    M2C_FIELD(arg0, s32 *, 0x944) = func_020dad78(0, 3, M2C_FIELD(data_02159e70, s32 *, 0x2354), 5, 0xA, 0x16, 8, 0xE0, 0, 0xE0);
+    M2C_FIELD(arg0, s32 *, 0x944) =
+        func_020dad78(0, 3, M2C_FIELD(data_02159e70, s32 *, 0x2354), 5, 0xA, 0x16, 8, 0xE0, 0, 0xE0);
 }

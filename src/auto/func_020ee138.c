@@ -1,12 +1,12 @@
 /* compiler: 1.2/sp2p3  */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020d6a1c(void);
 
 void func_020ee138(s32 arg0) {
-    *(M2C_UNK *)arg0 = (s32) (*(M2C_UNK *)arg0 + 1);
-    if ((s32) *(M2C_UNK *)arg0 <= 0x14) {
+    *(M2C_UNK *) arg0 = (s32) (*(M2C_UNK *) arg0 + 1);
+    if ((s32) * (M2C_UNK *) arg0 <= 0x14) {
         return;
     }
     func_020d6a1c();

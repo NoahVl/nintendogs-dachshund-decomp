@@ -9,7 +9,9 @@ extern M2C_UNK data_02154300;
 void func_02091e84(M2C_UNK arg0) {
     s32 var_r0;
 
-    if ((func_020969e4() != -0xB) && (M2C_FIELD(&data_0215422c, s32 *, 0x40) == 0) && (M2C_FIELD(&data_0215422c, s16 *, 0x3E) != 1) && (M2C_FIELD(&data_0215422c, s16 *, 0x3E) != 2) && (M2C_FIELD(&data_02154300, s16 *, 6) != 0x3E) && (M2C_FIELD(&data_02154300, s16 *, 6) != 0x3F)) {
+    if ((func_020969e4() != -0xB) && (M2C_FIELD(&data_0215422c, s32 *, 0x40) == 0) &&
+        (M2C_FIELD(&data_0215422c, s16 *, 0x3E) != 1) && (M2C_FIELD(&data_0215422c, s16 *, 0x3E) != 2) &&
+        (M2C_FIELD(&data_02154300, s16 *, 6) != 0x3E) && (M2C_FIELD(&data_02154300, s16 *, 6) != 0x3F)) {
         var_r0 = 1;
     } else {
         var_r0 = 0;

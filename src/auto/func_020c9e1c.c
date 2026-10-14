@@ -16,7 +16,7 @@ void func_020c9e1c(void *arg0) {
 
     func_020ca530(arg0, 1);
     M2C_FIELD(arg0, M2C_UNK **, 0x14) = &func_020c9c4c;
-    M2C_FIELD(arg0, s32 *, 0x18) = 0;
+    M2C_FIELD(arg0, s32 *, 0x18)      = 0;
     func_0200657c(arg0 + 0x1C);
     M2C_FIELD(arg0, s16 *, 0x24) = 0;
     M2C_FIELD(arg0, s16 *, 0x26) = 0;

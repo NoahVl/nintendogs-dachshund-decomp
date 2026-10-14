@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3  */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_01ffdb08(M2C_UNK);
 M2C_UNK func_02026fc8(void);
@@ -17,7 +17,7 @@ void func_02116858(s32 arg0) {
     s32 var_r5_2;
     void *var_r0;
 
-    var_r5 = 0;
+    var_r5                       = 0;
     M2C_FIELD(arg0, s16 *, 0x24) = 0;
 loop_1:
     if ((func_01ffdb08(var_r5) != 0) && (func_02026fc8() != 0)) {
@@ -27,7 +27,7 @@ loop_1:
     var_r5 = (s32) (s16) (var_r5 + 1);
     if (var_r5 >= 3) {
         var_r5_2 = 0;
-loop_6:
+    loop_6:
         temp_r0 = func_01ffdb08(var_r5_2);
         if ((temp_r0 != 0) && (func_02026ff0(temp_r0) != 0)) {
             M2C_FIELD(arg0, s16 *, 0x24) = 2;

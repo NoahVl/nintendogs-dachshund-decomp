@@ -21,7 +21,7 @@ void func_02114b28(void *arg0) {
     if (M2C_FIELD(arg0, s16 *, 0x120) != 0) {
         return;
     }
-    if (((s32) (*(u16 *)0x04000304 & 0x8000) >> 0xF) == 1) {
+    if (((s32) (*(u16 *) 0x04000304 & 0x8000) >> 0xF) == 1) {
         func_020d2c64(2, 0xC44, 0, &func_02117b10, 0);
     } else {
         func_020d2c64(2, 0xC44, 0, &func_02117b10, 1);

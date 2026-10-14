@@ -1,10 +1,10 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 s32 func_02070c3c(s32 arg0) {
     void *temp_r1;
 
-    temp_r1 = *(M2C_UNK *)arg0;
+    temp_r1 = *(M2C_UNK *) arg0;
     if (temp_r1 == NULL) {
         return -1;
     }

@@ -13,7 +13,7 @@ void func_020ca2ec(void) {
     void *var_r4;
 
     temp_r5 = *data_02159e28;
-    var_r4 = *temp_r5;
+    var_r4  = *temp_r5;
     if (var_r4 == NULL) {
         return;
     }

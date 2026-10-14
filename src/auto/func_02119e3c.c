@@ -13,6 +13,6 @@ void *func_02119e3c(M2C_UNK arg0, s32 arg1) {
     func_02114124();
     M2C_FIELD(temp_r4, M2C_UNK **, 0x14) = &func_0211a148;
     M2C_FIELD(temp_r4, M2C_UNK **, 0x10) = &func_02119e84;
-    M2C_FIELD(temp_r4, s32 *, 0x1C) = arg1;
+    M2C_FIELD(temp_r4, s32 *, 0x1C)      = arg1;
     return temp_r4;
 }

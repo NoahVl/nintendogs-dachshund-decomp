@@ -21,14 +21,14 @@ s32 func_02050bfc(void *arg0) {
     }
     temp_r0_2 = func_02027884(arg0, temp_r0);
     switch (temp_r0_2) {                            /* irregular */
-    case 1:
-    case 2:
-        M2C_FIELD(arg0, s32 *, 0x484) = temp_r0_2;
-        return func_02050fb8(arg0, temp_r0);
-    case 0:
-        M2C_FIELD(arg0, s32 *, 0x484) = temp_r0_2;
-        return func_02050cbc(arg0, temp_r0);
-    default:
-        return 0;
+        case 1:
+        case 2:
+            M2C_FIELD(arg0, s32 *, 0x484) = temp_r0_2;
+            return func_02050fb8(arg0, temp_r0);
+        case 0:
+            M2C_FIELD(arg0, s32 *, 0x484) = temp_r0_2;
+            return func_02050cbc(arg0, temp_r0);
+        default:
+            return 0;
     }
 }

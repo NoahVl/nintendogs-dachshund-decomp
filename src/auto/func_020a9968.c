@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3  */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 extern void *data_0215a064;
 
@@ -22,6 +22,6 @@ void func_020a9968(s32 arg0, s32 arg1, s32 arg2) {
     if (var_r3 < -0x50000) {
         var_r3 = -0x50000;
     }
-    *(M2C_UNK *)arg1 = var_ip;
-    *(M2C_UNK *)arg2 = var_r3;
+    *(M2C_UNK *) arg1 = var_ip;
+    *(M2C_UNK *) arg2 = var_r3;
 }

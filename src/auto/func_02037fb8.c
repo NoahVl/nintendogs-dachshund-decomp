@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 s32 func_02037fb8(s32 arg0) {
     s32 temp_r1;
@@ -14,12 +14,12 @@ s32 func_02037fb8(s32 arg0) {
         var_r0 = 2;
     }
     switch (var_r0) {                               /* irregular */
-    case 0:
-        return 0x16;
-    default:
-    case 1:
-        return 0x15;
-    case 2:
-        return 0x14;
+        case 0:
+            return 0x16;
+        default:
+        case 1:
+            return 0x15;
+        case 2:
+            return 0x14;
     }
 }

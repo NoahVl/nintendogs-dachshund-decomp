@@ -11,7 +11,7 @@ void func_02006350(void) {
     if (M2C_FIELD(&data_0214d5fc, s32 *, 0x24) != 0) {
         var_r0 = func_0200615c();
     } else {
-        var_r0 = ((*(u16 *)0x04000130 | *(u16 *)0x027FFFA8) ^ 0x2FFF) & 0x2FFF;
+        var_r0 = ((*(u16 *) 0x04000130 | *(u16 *) 0x027FFFA8) ^ 0x2FFF) & 0x2FFF;
     }
     func_02006410(var_r0, &data_0214d5fc);
 }

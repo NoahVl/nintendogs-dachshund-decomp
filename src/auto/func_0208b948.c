@@ -11,7 +11,7 @@ s32 func_0208b948(void *arg0, s32 arg1, s32 arg2) {
     temp_r0 = func_0208b9c8();
     if (temp_r0 != -1) {
         M2C_FIELD((arg0 + (temp_r0 * 4)), s32 *, 0x28) = arg2;
-        M2C_FIELD(arg0, u16 *, 0x26) = (u16) (M2C_FIELD(arg0, u16 *, 0x26) | (1 << temp_r0));
+        M2C_FIELD(arg0, u16 *, 0x26)                   = (u16) (M2C_FIELD(arg0, u16 *, 0x26) | (1 << temp_r0));
     }
     if ((M2C_FIELD(&data_02154350, s32 *, 4) == 0) && (M2C_FIELD(arg0, u16 *, 0x24) == 0x4B) && (arg1 == 0)) {
         func_0208d310(0x7E);

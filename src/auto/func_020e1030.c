@@ -38,9 +38,9 @@ void func_020e1030(void *arg0) {
 
     func_020e7f9c(9);
     func_020e2810();
-    temp_r5 = func_020e7ec4(9, &data_02144a00);
-    temp_r7 = func_020e7ec4(9, &data_02144a10);
-    temp_r6 = func_020e7ec4(9, &data_02144a20);
+    temp_r5   = func_020e7ec4(9, &data_02144a00);
+    temp_r7   = func_020e7ec4(9, &data_02144a10);
+    temp_r6   = func_020e7ec4(9, &data_02144a20);
     temp_r5_2 = func_020e7ec4(9, &data_02144a34);
     func_020ec2f4(2, temp_r5);
     func_020ec328(2, temp_r7);
@@ -60,9 +60,9 @@ void func_020e1030(void *arg0) {
     func_020d6240(9, &data_02144a44, &data_02144a54, &data_02144a64, &data_02144a68);
     func_020e3098(1);
     func_020d6384(2, 2, 5);
-    M2C_FIELD(arg0, s32 *, 0) = 0;
-    M2C_FIELD(arg0, s16 *, 0xC) = 0x1F4;
-    M2C_FIELD(arg0, s16 *, 0xE) = 0;
+    M2C_FIELD(arg0, s32 *, 0)      = 0;
+    M2C_FIELD(arg0, s16 *, 0xC)    = 0x1F4;
+    M2C_FIELD(arg0, s16 *, 0xE)    = 0;
     M2C_FIELD(arg0, s32 *, 0x1C10) = 0;
     M2C_FIELD(arg0, s16 *, 0x1C16) = 0;
     M2C_FIELD(arg0, s16 *, 0x1C14) = 0;

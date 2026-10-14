@@ -5,5 +5,5 @@ s32 func_02028108();                                /* extern */
 extern M2C_UNK data_021316ac;
 
 s32 func_020fde4c(void) {
-    return *((M2C_UNK *)((s8 *)&data_021316ac + (func_02028108() * 4)));
+    return *((M2C_UNK *) ((s8 *) &data_021316ac + (func_02028108() * 4)));
 }

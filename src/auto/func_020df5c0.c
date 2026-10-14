@@ -16,51 +16,51 @@ void func_020df5c0(void *arg0, void *arg1) {
 
     temp_r1 = M2C_FIELD(arg1, u16 *, 2);
     switch (temp_r1) {                              /* switch 1 */
-    default:                                        /* switch 1 */
-        break;
-    case 2:                                         /* switch 1 */
-    case 3:                                         /* switch 1 */
-        func_020e3128();
-        break;
-    case 4:                                         /* switch 1 */
-        temp_r1_2 = M2C_FIELD(arg1, u16 *, 0x12);
-        switch (temp_r1_2) {                        /* switch 2; irregular */
-        case 1:                                     /* switch 2 */
-            M2C_FIELD(arg0, s32 *, 0x1C) = 1;
+        default:                                        /* switch 1 */
             break;
-        case 3:                                     /* switch 2 */
-            M2C_FIELD(arg0, s32 *, 0x1C) = 2;
+        case 2:                                         /* switch 1 */
+        case 3:                                         /* switch 1 */
+            func_020e3128();
             break;
-        case 4:                                     /* switch 2 */
-            M2C_FIELD(arg0, s32 *, 0x1C) = 1;
+        case 4:                                         /* switch 1 */
+            temp_r1_2 = M2C_FIELD(arg1, u16 *, 0x12);
+            switch (temp_r1_2) {                        /* switch 2; irregular */
+                case 1:                                     /* switch 2 */
+                    M2C_FIELD(arg0, s32 *, 0x1C) = 1;
+                    break;
+                case 3:                                     /* switch 2 */
+                    M2C_FIELD(arg0, s32 *, 0x1C) = 2;
+                    break;
+                case 4:                                     /* switch 2 */
+                    M2C_FIELD(arg0, s32 *, 0x1C) = 1;
+                    break;
+                default:                                    /* switch 2 */
+                    M2C_FIELD(arg0, s32 *, 0x1C) = 0;
+                    break;
+            }
+            func_020e3098(M2C_FIELD(arg0, s32 *, 0x1C));
             break;
-        default:                                    /* switch 2 */
-            M2C_FIELD(arg0, s32 *, 0x1C) = 0;
+        case 6:                                         /* switch 1 */
+            M2C_FIELD(arg0, s32 *, 0x10) = 1;
             break;
-        }
-        func_020e3098(M2C_FIELD(arg0, s32 *, 0x1C));
-        break;
-    case 6:                                         /* switch 1 */
-        M2C_FIELD(arg0, s32 *, 0x10) = 1;
-        break;
-    case 8:                                         /* switch 1 */
-        M2C_FIELD(arg0, s32 *, 0x14) = 1;
-        break;
-    case 9:                                         /* switch 1 */
-        func_0208fd08(M2C_FIELD(arg1, u16 *, 0x1C));
-        break;
-    case 10:                                        /* switch 1 */
-        func_0208de24(M2C_FIELD(arg1, u16 *, 0x1C));
-        break;
-    case 11:                                        /* switch 1 */
-        M2C_FIELD(arg0, s32 *, 0x18) = 1;
-        break;
-    case 1:                                         /* switch 1 */
-        func_020e097c();
-        break;
-    case 12:                                        /* switch 1 */
-        func_020df6f0(arg1);
-        break;
+        case 8:                                         /* switch 1 */
+            M2C_FIELD(arg0, s32 *, 0x14) = 1;
+            break;
+        case 9:                                         /* switch 1 */
+            func_0208fd08(M2C_FIELD(arg1, u16 *, 0x1C));
+            break;
+        case 10:                                        /* switch 1 */
+            func_0208de24(M2C_FIELD(arg1, u16 *, 0x1C));
+            break;
+        case 11:                                        /* switch 1 */
+            M2C_FIELD(arg0, s32 *, 0x18) = 1;
+            break;
+        case 1:                                         /* switch 1 */
+            func_020e097c();
+            break;
+        case 12:                                        /* switch 1 */
+            func_020df6f0(arg1);
+            break;
     }
     if (M2C_FIELD(arg1, s16 *, 0) != 3) {
         return;

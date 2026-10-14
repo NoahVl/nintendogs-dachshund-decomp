@@ -18,8 +18,8 @@ void func_020f6b20(void *arg0, M2C_UNK arg1) {
     M2C_FIELD(arg0, M2C_UNK **, 0x1F8) = &func_020f5724;
     M2C_FIELD(arg0, M2C_UNK **, 0x1F0) = &func_020f6b14;
     M2C_FIELD(arg0, M2C_UNK **, 0x200) = &func_020f56d8;
-    M2C_FIELD(arg0, void **, 0x214) = func_020038a8(arg1, 0x1C);
-    temp_r1 = M2C_FIELD(arg0, void **, 0x214);
+    M2C_FIELD(arg0, void **, 0x214)    = func_020038a8(arg1, 0x1C);
+    temp_r1                            = M2C_FIELD(arg0, void **, 0x214);
     if (temp_r1 == NULL) {
         return;
     }

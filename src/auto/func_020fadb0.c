@@ -20,11 +20,11 @@ void func_020fadb0(s32 arg0) {
     } else {
         var_r4 = func_020034f0(arg0, 0xB000);
     }
-    temp_r0 = func_02003850(var_r4, 0x10, 4);
-    data_0215a02c = temp_r0;
-    M2C_FIELD(temp_r0, s32 *, 4) = arg0;
+    temp_r0                            = func_02003850(var_r4, 0x10, 4);
+    data_0215a02c                      = temp_r0;
+    M2C_FIELD(temp_r0, s32 *, 4)       = arg0;
     M2C_FIELD(data_0215a02c, s32 *, 8) = var_r4;
-    temp_r0_2 = *data_0215a04c;
+    temp_r0_2                          = *data_0215a04c;
     if ((temp_r0_2 == 8) || (temp_r0_2 == 0x10)) {
         M2C_FIELD(data_0215a02c, s32 *, 0) = func_02081974(&func_020faf2c, 0x40, 0x320, 0xD, 0xE, 0x3D);
         return;

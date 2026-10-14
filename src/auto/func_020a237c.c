@@ -10,20 +10,20 @@ void func_020a237c(void *arg0) {
     func_020eae68(0x14, M2C_FIELD(arg0, s16 *, 0x1C18), M2C_FIELD(arg0, s16 *, 0x1C1A));
     temp_r0 = M2C_FIELD(arg0, u32 *, 0x1CF4);
     switch (temp_r0) {
-    default:
-        break;
-    case 0:
-        M2C_FIELD(arg0, s32 *, 0x14) = 0x2526;
-        break;
-    case 1:
-        M2C_FIELD(arg0, s32 *, 0x14) = 0x2526;
-        break;
-    case 2:
-        M2C_FIELD(arg0, s32 *, 0x14) = 0x2530;
-        break;
-    case 3:
-        M2C_FIELD(arg0, s32 *, 0x14) = 0x2544;
-        break;
+        default:
+            break;
+        case 0:
+            M2C_FIELD(arg0, s32 *, 0x14) = 0x2526;
+            break;
+        case 1:
+            M2C_FIELD(arg0, s32 *, 0x14) = 0x2526;
+            break;
+        case 2:
+            M2C_FIELD(arg0, s32 *, 0x14) = 0x2530;
+            break;
+        case 3:
+            M2C_FIELD(arg0, s32 *, 0x14) = 0x2544;
+            break;
     }
     func_020d2c64(8, M2C_FIELD(arg0, s32 *, 0x14), 0, 0, 1);
 }

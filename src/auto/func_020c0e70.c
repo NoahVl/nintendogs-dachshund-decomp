@@ -10,15 +10,15 @@ u8 func_020c0e70(void) {
     s32 temp_r0;
     u8 var_r4;
 
-    var_r4 = func_020bd6c4() + 5;
+    var_r4  = func_020bd6c4() + 5;
     temp_r0 = func_020bef20();
     switch (temp_r0) {                              /* irregular */
-    case 2:
-        var_r4 = func_020c0f74(var_r4);
-        break;
-    case 3:
-        var_r4 = func_020c0ec0(var_r4);
-        break;
+        case 2:
+            var_r4 = func_020c0f74(var_r4);
+            break;
+        case 3:
+            var_r4 = func_020c0ec0(var_r4);
+            break;
     }
     return var_r4;
 }

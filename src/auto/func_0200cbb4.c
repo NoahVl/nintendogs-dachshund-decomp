@@ -18,7 +18,8 @@ void func_0200cbb4(void *arg0) {
     s32 temp_r4;
 
     temp_r4 = func_0200ccc4();
-    if ((M2C_FIELD(arg0, s16 *, 0xF0) != 0x6F) && (func_02022e04(arg0, 0x47) == 0) && (func_02022e04(arg0, 0x46) == 0) && (func_02022e04(arg0, 0x4D) == 0)) {
+    if ((M2C_FIELD(arg0, s16 *, 0xF0) != 0x6F) && (func_02022e04(arg0, 0x47) == 0) && (func_02022e04(arg0, 0x46) == 0) &&
+        (func_02022e04(arg0, 0x4D) == 0)) {
         func_02029248(arg0);
     }
     var_r9 = 0;

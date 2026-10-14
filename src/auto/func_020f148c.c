@@ -29,17 +29,17 @@ void func_020f148c(void *arg0) {
     s32 temp_r7;
     s32 temp_r8;
 
-    M2C_FIELD(arg0, s32 *, 4) = 0;
-    M2C_FIELD(arg0, s32 *, 0) = 0;
-    M2C_FIELD(arg0, s32 *, 0x30) = 0x63;
-    M2C_FIELD(arg0, s32 *, 0x38) = 0;
-    M2C_FIELD(arg0, s32 *, 0x3C) = 0;
+    M2C_FIELD(arg0, s32 *, 4)     = 0;
+    M2C_FIELD(arg0, s32 *, 0)     = 0;
+    M2C_FIELD(arg0, s32 *, 0x30)  = 0x63;
+    M2C_FIELD(arg0, s32 *, 0x38)  = 0;
+    M2C_FIELD(arg0, s32 *, 0x3C)  = 0;
     M2C_FIELD(arg0, s32 *, 0x150) = 0;
-    temp_r6 = func_020e7ec4(0, &data_02146cd0);
-    temp_r4 = func_020e7ec4(0, &data_02146ce0);
-    temp_r8 = func_020e7ec4(0, &data_02146cf0);
-    temp_r7 = func_020e7ec4(0, &data_02146d00);
-    temp_r6_2 = func_020e7ec4(0, &data_02146d18);
+    temp_r6                       = func_020e7ec4(0, &data_02146cd0);
+    temp_r4                       = func_020e7ec4(0, &data_02146ce0);
+    temp_r8                       = func_020e7ec4(0, &data_02146cf0);
+    temp_r7                       = func_020e7ec4(0, &data_02146d00);
+    temp_r6_2                     = func_020e7ec4(0, &data_02146d18);
     func_020ec2f4(0, temp_r6);
     func_020ec328(0, temp_r4);
     func_020ec2c0(0, temp_r8);

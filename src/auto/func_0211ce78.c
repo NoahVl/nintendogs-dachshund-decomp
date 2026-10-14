@@ -11,10 +11,10 @@ void *func_0211ce78(M2C_UNK arg0, s32 arg1) {
 
     temp_r4 = func_020038a8(arg0, 0x24);
     func_02114124();
-    M2C_FIELD(temp_r4, s16 *, 0) = 9;
+    M2C_FIELD(temp_r4, s16 *, 0)         = 9;
     M2C_FIELD(temp_r4, M2C_UNK **, 0x14) = &func_0211cfe0;
     M2C_FIELD(temp_r4, M2C_UNK **, 0x10) = &func_0211ced0;
-    M2C_FIELD(temp_r4, s32 *, 0x1C) = arg1;
-    M2C_FIELD(temp_r4, s32 *, 0x20) = -1;
+    M2C_FIELD(temp_r4, s32 *, 0x1C)      = arg1;
+    M2C_FIELD(temp_r4, s32 *, 0x20)      = -1;
     return temp_r4;
 }

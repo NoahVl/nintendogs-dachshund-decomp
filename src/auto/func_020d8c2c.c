@@ -28,13 +28,13 @@ void func_020d8c2c(void *arg0) {
     s32 temp_r6;
     s32 temp_r7;
 
-    M2C_FIELD(arg0, s32 *, 0) = 0;
+    M2C_FIELD(arg0, s32 *, 0)     = 0;
     M2C_FIELD(arg0, s32 *, 0x1D0) = 0;
     M2C_FIELD(arg0, s32 *, 0x1D4) = 0x1000;
     func_020e7f9c(0xD);
-    temp_r5 = func_020e7ec4(0xD, &data_0214461c);
-    temp_r7 = func_020e7ec4(0xD, &data_0214462c);
-    temp_r6 = func_020e7ec4(0xD, &data_0214463c);
+    temp_r5   = func_020e7ec4(0xD, &data_0214461c);
+    temp_r7   = func_020e7ec4(0xD, &data_0214462c);
+    temp_r6   = func_020e7ec4(0xD, &data_0214463c);
     temp_r5_2 = func_020e7ec4(0xD, &data_02144658);
     func_020ec2f4(2, temp_r5);
     func_020ec328(2, temp_r7);

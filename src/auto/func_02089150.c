@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3  */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_01ffdb08(M2C_UNK);
 M2C_UNK func_02027530(M2C_UNK);
@@ -19,7 +19,7 @@ void func_02089150(s32 arg0) {
 
     if (data_0214da84 != 0) {
         var_r5 = 0;
-loop_2:
+    loop_2:
         temp_r0 = func_01ffdb08(var_r5);
         if (temp_r0 != 0) {
             M2C_FIELD(&data_02154350, s16 *, 0x20) = (s16) M2C_FIELD((void *) func_02027530(temp_r0), s16 *, 0xC);

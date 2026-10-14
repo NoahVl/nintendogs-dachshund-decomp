@@ -102,34 +102,34 @@ void func_0210f4f8(void) {
     func_020c7740();
     temp_r0 = M2C_FIELD(data_0215a04c, u16 *, 0);
     switch (temp_r0) {
-    default:
-        break;
-    case 6:
-        func_020d1bc4(0, 0U, 0);
-        func_020d08e8();
-        func_020d0c6c(0, 0U, 0, 1);
-        func_020d08c8();
-        break;
-    case 7:
-        if (M2C_FIELD(M2C_FIELD(data_0215a044, void **, 4), s32 *, 0x18) != 0xC) {
+        default:
+            break;
+        case 6:
             func_020d1bc4(0, 0U, 0);
             func_020d08e8();
             func_020d0c6c(0, 0U, 0, 1);
             func_020d08c8();
-        }
-        break;
-    case 1:
-    case 3:
-    case 4:
-        if (M2C_FIELD(data_0215a044, s16 *, 0) != 0) {
-            func_020d1bc4(0, 0U, 0);
-            func_020d1bc4(1, M2C_FIELD(data_0215a04c, u16 *, 0xE), 0);
-            func_020d08e8();
-            func_020d0c6c(1, M2C_FIELD(data_0215a04c, u16 *, 0xE), 0, 1);
-            func_020d0c6c(0, 0U, 0, 1);
-            func_020d08c8();
-        }
-        break;
+            break;
+        case 7:
+            if (M2C_FIELD(M2C_FIELD(data_0215a044, void **, 4), s32 *, 0x18) != 0xC) {
+                func_020d1bc4(0, 0U, 0);
+                func_020d08e8();
+                func_020d0c6c(0, 0U, 0, 1);
+                func_020d08c8();
+            }
+            break;
+        case 1:
+        case 3:
+        case 4:
+            if (M2C_FIELD(data_0215a044, s16 *, 0) != 0) {
+                func_020d1bc4(0, 0U, 0);
+                func_020d1bc4(1, M2C_FIELD(data_0215a04c, u16 *, 0xE), 0);
+                func_020d08e8();
+                func_020d0c6c(1, M2C_FIELD(data_0215a04c, u16 *, 0xE), 0, 1);
+                func_020d0c6c(0, 0U, 0, 1);
+                func_020d08c8();
+            }
+            break;
     }
     func_020d08ac();
     func_020c92d8();

@@ -1,12 +1,13 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
-void func_020f0ca4(s32 arg0, s32 arg1, s32 arg2, s32 arg3, u16 arg4, u16 arg5, s32 arg6, s16 arg7, s16 arg8, s16 arg9, s16 argA) {
-    M2C_FIELD(arg0, s32 *, 0) = arg1;
-    M2C_FIELD(arg0, s16 *, 4) = (s16) arg2;
-    M2C_FIELD(arg0, s32 *, 8) = arg3;
-    M2C_FIELD(arg0, u16 *, 0xC) = arg4;
-    M2C_FIELD(arg0, u16 *, 0xE) = arg5;
+void func_020f0ca4(s32 arg0, s32 arg1, s32 arg2, s32 arg3, u16 arg4, u16 arg5, s32 arg6, s16 arg7, s16 arg8, s16 arg9,
+                   s16 argA) {
+    M2C_FIELD(arg0, s32 *, 0)    = arg1;
+    M2C_FIELD(arg0, s16 *, 4)    = (s16) arg2;
+    M2C_FIELD(arg0, s32 *, 8)    = arg3;
+    M2C_FIELD(arg0, u16 *, 0xC)  = arg4;
+    M2C_FIELD(arg0, u16 *, 0xE)  = arg5;
     M2C_FIELD(arg0, s32 *, 0x10) = arg6;
     M2C_FIELD(arg0, s16 *, 0x14) = arg7;
     M2C_FIELD(arg0, s16 *, 0x16) = arg8;

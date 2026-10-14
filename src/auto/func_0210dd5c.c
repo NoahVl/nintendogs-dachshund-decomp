@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3  */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_02007040(void);
 void func_02066528(void);
@@ -16,7 +16,7 @@ void func_0210dd5c(void) {
 
     if (func_02066568() != 0) {
         var_r5 = 0;
-loop_2:
+    loop_2:
         if ((var_r5 == 0) && (func_020bf6c4() != 0)) {
             var_r5 = 1;
         }

@@ -11,9 +11,9 @@ void *func_0211a8f4(M2C_UNK arg0) {
 
     temp_r4 = func_020038a8(arg0, 0x20);
     func_02114124();
-    M2C_FIELD(temp_r4, s16 *, 0) = 3;
+    M2C_FIELD(temp_r4, s16 *, 0)         = 3;
     M2C_FIELD(temp_r4, M2C_UNK **, 0x10) = &func_0211a93c;
     M2C_FIELD(temp_r4, M2C_UNK **, 0x14) = &func_0211abac;
-    M2C_FIELD(temp_r4, s16 *, 0x1C) = -1;
+    M2C_FIELD(temp_r4, s16 *, 0x1C)      = -1;
     return temp_r4;
 }

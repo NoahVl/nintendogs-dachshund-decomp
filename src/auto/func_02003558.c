@@ -14,24 +14,24 @@ void func_02003558(s32 *arg0) {
     s32 var_r4;
 
     temp_r2 = *arg0;
-    var_r4 = 0;
+    var_r4  = 0;
     switch (temp_r2) {                              /* switch 1; irregular */
-    case 0x45585048:                                /* switch 1 */
-        var_r4 = func_0207d42c(arg0, 4);
-        break;
-    case 0x46524D48:                                /* switch 1 */
-        var_r4 = func_0207de1c(arg0, 4);
-        break;
+        case 0x45585048:                                /* switch 1 */
+            var_r4 = func_0207d42c(arg0, 4);
+            break;
+        case 0x46524D48:                                /* switch 1 */
+            var_r4 = func_0207de1c(arg0, 4);
+            break;
     }
     temp_r2_2 = *arg0;
-    var_r0 = 0;
+    var_r0    = 0;
     switch (temp_r2_2) {                            /* switch 2; irregular */
-    case 0x45585048:                                /* switch 2 */
-        var_r0 = func_0207d6a4(arg0, var_r4, 4);
-        break;
-    case 0x46524D48:                                /* switch 2 */
-        var_r0 = func_0207de9c(arg0, var_r4, 4);
-        break;
+        case 0x45585048:                                /* switch 2 */
+            var_r0 = func_0207d6a4(arg0, var_r4, 4);
+            break;
+        case 0x46524D48:                                /* switch 2 */
+            var_r0 = func_0207de9c(arg0, var_r4, 4);
+            break;
     }
     func_0207def0(var_r0, var_r4, 1);
 }

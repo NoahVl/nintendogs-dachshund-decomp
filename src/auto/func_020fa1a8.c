@@ -9,5 +9,7 @@ extern M2C_UNK func_020fa538;
 extern M2C_UNK func_020fa56c;
 
 void func_020fa1a8(void *arg0) {
-    func_020aff08(arg0, M2C_FIELD(arg0, s32 *, 0xF8), arg0 + 0xFC, arg0 + 0x108, func_020b1d6c(M2C_FIELD(arg0, u16 *, 0xA0), M2C_FIELD(arg0, s32 *, 0xF8)), &func_020fa56c, 0, &func_020fa538, &func_020fa51c, &func_020fa510);
+    func_020aff08(arg0, M2C_FIELD(arg0, s32 *, 0xF8), arg0 + 0xFC, arg0 + 0x108,
+                  func_020b1d6c(M2C_FIELD(arg0, u16 *, 0xA0), M2C_FIELD(arg0, s32 *, 0xF8)), &func_020fa56c, 0, &func_020fa538,
+                  &func_020fa51c, &func_020fa510);
 }

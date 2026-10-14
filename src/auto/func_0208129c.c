@@ -12,7 +12,7 @@ void *func_0208129c(void *arg0, s32 arg1, M2C_UNK arg2) {
     var_r4 = NULL;
     if (M2C_FIELD(arg0, s32 *, 0xC) != 0) {
         temp_r0 = func_02085b04(arg0 + 0xC);
-        var_r4 = temp_r0;
+        var_r4  = temp_r0;
         func_02082690(temp_r0, M2C_FIELD(arg0, s32 *, 0x1C) + (arg1 << 5), arg2);
         func_02085b48(arg0 + 4, var_r4);
         if (((u32) (**M2C_FIELD(var_r4, s32 ***, 0x18) << 0x11) >> 0x1F) != 0) {

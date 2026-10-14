@@ -18,13 +18,13 @@ s32 func_020650bc(M2C_UNK arg0, s16 arg1, s16 arg2, s16 arg3, u16 arg4) {
         return temp_r0;
     }
     func_02063f34(0x1E, arg0);
-    temp_r3 = M2C_FIELD(temp_r4, void **, 0xC);
+    temp_r3                      = M2C_FIELD(temp_r4, void **, 0xC);
     M2C_FIELD(temp_r3, s16 *, 0) = 0x1E;
     M2C_FIELD(temp_r3, s16 *, 2) = arg1;
     M2C_FIELD(temp_r3, s16 *, 4) = arg2;
     M2C_FIELD(temp_r3, s16 *, 6) = arg3;
     M2C_FIELD(temp_r3, u16 *, 8) = arg4;
-    var_r0 = func_02063de0(0x1E, 0);
+    var_r0                       = func_02063de0(0x1E, 0);
     if (var_r0 == 0) {
         var_r0 = 2;
     }

@@ -10,7 +10,7 @@ void func_020dc684(s32 arg0, void *arg1, M2C_UNK arg2, M2C_UNK arg3) {
     void *temp_r6;
     void *var_r1;
 
-    var_r1 = arg1;
+    var_r1  = arg1;
     temp_r6 = var_r1;
     if (arg0 == 1) {
         var_r1 = M2C_FIELD(temp_r6, void **, 0x1CC);
@@ -20,7 +20,7 @@ void func_020dc684(s32 arg0, void *arg1, M2C_UNK arg2, M2C_UNK arg3) {
     if (M2C_FIELD(temp_r6, s32 *, 0x64) == 0) {
         return;
     }
-    if (var_r1 != (void *)3) {
+    if (var_r1 != (void *) 3) {
         return;
     }
     if (M2C_FIELD(temp_r6, s32 *, 8) != 0) {

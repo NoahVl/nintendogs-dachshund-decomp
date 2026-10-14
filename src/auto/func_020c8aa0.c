@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3  */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 extern s32 (*data_0213cd70)(M2C_UNK, M2C_UNK, M2C_UNK);
 extern s32 (*data_0213cd78)(M2C_UNK, M2C_UNK, M2C_UNK);

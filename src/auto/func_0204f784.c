@@ -26,20 +26,20 @@ s32 func_0204f784(M2C_UNK arg0) {
     }
     temp_r0_2 = func_02027884(arg0, temp_r0);
     switch (temp_r0_2) {                            /* irregular */
-    case 2:
-        if (func_0202daec(arg0) == 0) {
-            func_0203e5e8(arg0, 0x2FF);
-        }
-        return 1;
-    case 1:
-        if (func_0202daec(arg0) == 0) {
-            func_0203e5e8(arg0, 0x2FE);
-        }
-        return 1;
-    case 0:
-        func_0203e5e8(arg0, 0x300);
-        return 1;
-    default:
-        return 0;
+        case 2:
+            if (func_0202daec(arg0) == 0) {
+                func_0203e5e8(arg0, 0x2FF);
+            }
+            return 1;
+        case 1:
+            if (func_0202daec(arg0) == 0) {
+                func_0203e5e8(arg0, 0x2FE);
+            }
+            return 1;
+        case 0:
+            func_0203e5e8(arg0, 0x300);
+            return 1;
+        default:
+            return 0;
     }
 }
