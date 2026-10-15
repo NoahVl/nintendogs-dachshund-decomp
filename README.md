@@ -1,8 +1,20 @@
-# Nintendogs decompilation (USA)
+# Nintendogs Dachshund decompilation (USA)
 
 Nintendo DS, game code `ADGE`. Matching decompilation with Metrowerks mwccarm (compiler version still to be identified: `python tools/probe_compiler.py`).
 
 No game assets in this repository: see `extract/README.md`.
+
+## Progress
+
+<!-- progress:start -->
+`███░░░░░░░░░░░░░░░░░` **15.64%** of the code matched · data 0.00% · 3117/8610 functions
+
+| Part of the code | Files | Functions | Share of all code |
+|---|---|---|---|
+| Auto-matched (raw m2c output, to clean up) | 3117 | 3117/3117 | 15.64% |
+
+*Updated 2026-10-15 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
+<!-- progress:end -->
 
 ```shell
 python tools/configure.py usa
